@@ -11,8 +11,7 @@ let package = Package(
     targets: [
         .target(
             name: "mparticle-apple-sdk",
-            path: "lottie-swift/src",
-            exclude: ["Public/MacOS"]
+            path: "mParticle-Apple-SDK"
         )
     ]
 )
